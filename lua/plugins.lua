@@ -43,4 +43,11 @@ packer.startup(function(use)
     }
 
     use ('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
+
+    use {
+	    "Pocco81/auto-save.nvim",
+	    config = function()
+		    require("auto-save").setup {}
+	    end,
+    }
 end)
