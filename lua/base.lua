@@ -1,5 +1,6 @@
 vim.opt.wrap = false
 vim.opt.nu = true --:set number
+vim.opt.relativenumber = true
 
 --line spacing
 vim.opt.tabstop = 4

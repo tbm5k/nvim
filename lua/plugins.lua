@@ -50,4 +50,6 @@ packer.startup(function(use)
 		    require("auto-save").setup {}
 	    end,
     }
+
+    use 'darrikonn/vim-gofmt'
 end)
