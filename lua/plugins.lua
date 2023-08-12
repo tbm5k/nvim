@@ -57,4 +57,5 @@ packer.startup(function(use)
         require('git-conflict').setup()
     end}
 
+    use {'prettier/vim-prettier', run = 'yarn install --frozen-lockfile --production'}
 end)
