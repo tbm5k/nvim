@@ -58,4 +58,8 @@ packer.startup(function(use)
     end}
 
     use {'prettier/vim-prettier', run = 'yarn install --frozen-lockfile --production'}
+
+    use 'mfussenegger/nvim-dap'
+
+    use { "catppuccin/nvim", as = "catppuccin" }
 end)
