@@ -34,4 +34,8 @@ packer.startup(function(use)
             {'L3MON4D3/LuaSnip'},
         }
     }
+
+    use {'akinsho/git-conflict.nvim', tag = "*", config = function()
+        require('git-conflict').setup()
+    end}
 end)
