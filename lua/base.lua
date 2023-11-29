@@ -18,8 +18,3 @@ vim.cmd([[
     autocmd VimEnter * :silent! Explore
     augroup END
 ]])
-
--- prettier configs
---vim.g['prettier#autoformat'] = 1
---vim.g['prettier#autoformat_require_pragma'] = 0
---vim.g['prettier#exec_cmd_async'] = 1
