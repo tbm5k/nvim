@@ -40,4 +40,6 @@ packer.startup(function(use)
     end}
 
     use 'wakatime/vim-wakatime'
+
+    use 'terrortylor/nvim-comment'
 end)
