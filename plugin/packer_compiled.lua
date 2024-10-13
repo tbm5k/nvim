@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/home/tbm5k/.cache/nvim/packer_hererocks/2.1.1692716794/share/lua/5.1/?.lua;/home/tbm5k/.cache/nvim/packer_hererocks/2.1.1692716794/share/lua/5.1/?/init.lua;/home/tbm5k/.cache/nvim/packer_hererocks/2.1.1692716794/lib/luarocks/rocks-5.1/?.lua;/home/tbm5k/.cache/nvim/packer_hererocks/2.1.1692716794/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/home/tbm5k/.cache/nvim/packer_hererocks/2.1.1692716794/lib/lua/5.1/?.so"
+local package_path_str = "/Users/tbm5k/.cache/nvim/packer_hererocks/2.1.1703358377/share/lua/5.1/?.lua;/Users/tbm5k/.cache/nvim/packer_hererocks/2.1.1703358377/share/lua/5.1/?/init.lua;/Users/tbm5k/.cache/nvim/packer_hererocks/2.1.1703358377/lib/luarocks/rocks-5.1/?.lua;/Users/tbm5k/.cache/nvim/packer_hererocks/2.1.1703358377/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/Users/tbm5k/.cache/nvim/packer_hererocks/2.1.1703358377/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -76,95 +76,91 @@ time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
   LuaSnip = {
     loaded = true,
-    path = "/home/tbm5k/.local/share/nvim/site/pack/packer/start/LuaSnip",
+    path = "/Users/tbm5k/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
   catppuccin = {
     loaded = true,
-    path = "/home/tbm5k/.local/share/nvim/site/pack/packer/start/catppuccin",
+    path = "/Users/tbm5k/.local/share/nvim/site/pack/packer/start/catppuccin",
     url = "https://github.com/catppuccin/nvim"
   },
   ["cmp-nvim-lsp"] = {
     loaded = true,
-    path = "/home/tbm5k/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
+    path = "/Users/tbm5k/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
   ["git-conflict.nvim"] = {
     config = { "\27LJ\2\n:\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\17git-conflict\frequire\0" },
     loaded = true,
-    path = "/home/tbm5k/.local/share/nvim/site/pack/packer/start/git-conflict.nvim",
+    path = "/Users/tbm5k/.local/share/nvim/site/pack/packer/start/git-conflict.nvim",
     url = "https://github.com/akinsho/git-conflict.nvim"
   },
   ["lsp-zero.nvim"] = {
     loaded = true,
-    path = "/home/tbm5k/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
+    path = "/Users/tbm5k/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
     url = "https://github.com/VonHeikemen/lsp-zero.nvim"
   },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
-    path = "/home/tbm5k/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
+    path = "/Users/tbm5k/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
     url = "https://github.com/williamboman/mason-lspconfig.nvim"
   },
   ["mason.nvim"] = {
     loaded = true,
-    path = "/home/tbm5k/.local/share/nvim/site/pack/packer/start/mason.nvim",
+    path = "/Users/tbm5k/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
   ["nvim-cmp"] = {
     loaded = true,
-    path = "/home/tbm5k/.local/share/nvim/site/pack/packer/start/nvim-cmp",
+    path = "/Users/tbm5k/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
   },
   ["nvim-comment"] = {
     loaded = true,
-    path = "/home/tbm5k/.local/share/nvim/site/pack/packer/start/nvim-comment",
+    path = "/Users/tbm5k/.local/share/nvim/site/pack/packer/start/nvim-comment",
     url = "https://github.com/terrortylor/nvim-comment"
-  },
-  ["nvim-dap"] = {
-    loaded = true,
-    path = "/home/tbm5k/.local/share/nvim/site/pack/packer/start/nvim-dap",
-    url = "https://github.com/mfussenegger/nvim-dap"
-  },
-  ["nvim-dap-vscode-js"] = {
-    loaded = true,
-    path = "/home/tbm5k/.local/share/nvim/site/pack/packer/start/nvim-dap-vscode-js",
-    url = "https://github.com/mxsdev/nvim-dap-vscode-js"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
-    path = "/home/tbm5k/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
+    path = "/Users/tbm5k/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
   },
   ["nvim-treesitter"] = {
     loaded = true,
-    path = "/home/tbm5k/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
+    path = "/Users/tbm5k/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
   ["packer.nvim"] = {
     loaded = true,
-    path = "/home/tbm5k/.local/share/nvim/site/pack/packer/start/packer.nvim",
+    path = "/Users/tbm5k/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
   ["plenary.nvim"] = {
     loaded = true,
-    path = "/home/tbm5k/.local/share/nvim/site/pack/packer/start/plenary.nvim",
+    path = "/Users/tbm5k/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,
-    path = "/home/tbm5k/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+    path = "/Users/tbm5k/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["todo.nvim"] = {
+    loaded = true,
+    path = "/Users/tbm5k/.local/share/nvim/site/pack/packer/start/todo.nvim",
+    url = "/Users/tbm5k/personal/plugins/todo.nvim"
+  },
+  ["vim-prettier"] = {
+    loaded = false,
+    needs_bufread = true,
+    only_cond = false,
+    path = "/Users/tbm5k/.local/share/nvim/site/pack/packer/opt/vim-prettier",
+    url = "https://github.com/prettier/vim-prettier"
   },
   ["vim-wakatime"] = {
     loaded = true,
-    path = "/home/tbm5k/.local/share/nvim/site/pack/packer/start/vim-wakatime",
+    path = "/Users/tbm5k/.local/share/nvim/site/pack/packer/start/vim-wakatime",
     url = "https://github.com/wakatime/vim-wakatime"
-  },
-  ["vscode-js-debug"] = {
-    loaded = false,
-    needs_bufread = false,
-    path = "/home/tbm5k/.local/share/nvim/site/pack/packer/opt/vscode-js-debug",
-    url = "https://github.com/microsoft/vscode-js-debug"
   }
 }
 
@@ -173,6 +169,67 @@ time([[Defining packer_plugins]], false)
 time([[Config for git-conflict.nvim]], true)
 try_loadstring("\27LJ\2\n:\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\17git-conflict\frequire\0", "config", "git-conflict.nvim")
 time([[Config for git-conflict.nvim]], false)
+vim.cmd [[augroup packer_load_aucmds]]
+vim.cmd [[au!]]
+  -- Filetype lazy-loads
+time([[Defining lazy-load filetype autocommands]], true)
+vim.cmd [[au FileType html ++once lua require("packer.load")({'vim-prettier'}, { ft = "html" }, _G.packer_plugins)]]
+vim.cmd [[au FileType json ++once lua require("packer.load")({'vim-prettier'}, { ft = "json" }, _G.packer_plugins)]]
+vim.cmd [[au FileType javascript ++once lua require("packer.load")({'vim-prettier'}, { ft = "javascript" }, _G.packer_plugins)]]
+vim.cmd [[au FileType typescript ++once lua require("packer.load")({'vim-prettier'}, { ft = "typescript" }, _G.packer_plugins)]]
+vim.cmd [[au FileType css ++once lua require("packer.load")({'vim-prettier'}, { ft = "css" }, _G.packer_plugins)]]
+time([[Defining lazy-load filetype autocommands]], false)
+vim.cmd("augroup END")
+vim.cmd [[augroup filetypedetect]]
+time([[Sourcing ftdetect script at: /Users/tbm5k/.local/share/nvim/site/pack/packer/opt/vim-prettier/ftdetect/css.vim]], true)
+vim.cmd [[source /Users/tbm5k/.local/share/nvim/site/pack/packer/opt/vim-prettier/ftdetect/css.vim]]
+time([[Sourcing ftdetect script at: /Users/tbm5k/.local/share/nvim/site/pack/packer/opt/vim-prettier/ftdetect/css.vim]], false)
+time([[Sourcing ftdetect script at: /Users/tbm5k/.local/share/nvim/site/pack/packer/opt/vim-prettier/ftdetect/graphql.vim]], true)
+vim.cmd [[source /Users/tbm5k/.local/share/nvim/site/pack/packer/opt/vim-prettier/ftdetect/graphql.vim]]
+time([[Sourcing ftdetect script at: /Users/tbm5k/.local/share/nvim/site/pack/packer/opt/vim-prettier/ftdetect/graphql.vim]], false)
+time([[Sourcing ftdetect script at: /Users/tbm5k/.local/share/nvim/site/pack/packer/opt/vim-prettier/ftdetect/html.vim]], true)
+vim.cmd [[source /Users/tbm5k/.local/share/nvim/site/pack/packer/opt/vim-prettier/ftdetect/html.vim]]
+time([[Sourcing ftdetect script at: /Users/tbm5k/.local/share/nvim/site/pack/packer/opt/vim-prettier/ftdetect/html.vim]], false)
+time([[Sourcing ftdetect script at: /Users/tbm5k/.local/share/nvim/site/pack/packer/opt/vim-prettier/ftdetect/javascript.vim]], true)
+vim.cmd [[source /Users/tbm5k/.local/share/nvim/site/pack/packer/opt/vim-prettier/ftdetect/javascript.vim]]
+time([[Sourcing ftdetect script at: /Users/tbm5k/.local/share/nvim/site/pack/packer/opt/vim-prettier/ftdetect/javascript.vim]], false)
+time([[Sourcing ftdetect script at: /Users/tbm5k/.local/share/nvim/site/pack/packer/opt/vim-prettier/ftdetect/json.vim]], true)
+vim.cmd [[source /Users/tbm5k/.local/share/nvim/site/pack/packer/opt/vim-prettier/ftdetect/json.vim]]
+time([[Sourcing ftdetect script at: /Users/tbm5k/.local/share/nvim/site/pack/packer/opt/vim-prettier/ftdetect/json.vim]], false)
+time([[Sourcing ftdetect script at: /Users/tbm5k/.local/share/nvim/site/pack/packer/opt/vim-prettier/ftdetect/less.vim]], true)
+vim.cmd [[source /Users/tbm5k/.local/share/nvim/site/pack/packer/opt/vim-prettier/ftdetect/less.vim]]
+time([[Sourcing ftdetect script at: /Users/tbm5k/.local/share/nvim/site/pack/packer/opt/vim-prettier/ftdetect/less.vim]], false)
+time([[Sourcing ftdetect script at: /Users/tbm5k/.local/share/nvim/site/pack/packer/opt/vim-prettier/ftdetect/lua.vim]], true)
+vim.cmd [[source /Users/tbm5k/.local/share/nvim/site/pack/packer/opt/vim-prettier/ftdetect/lua.vim]]
+time([[Sourcing ftdetect script at: /Users/tbm5k/.local/share/nvim/site/pack/packer/opt/vim-prettier/ftdetect/lua.vim]], false)
+time([[Sourcing ftdetect script at: /Users/tbm5k/.local/share/nvim/site/pack/packer/opt/vim-prettier/ftdetect/markdown.vim]], true)
+vim.cmd [[source /Users/tbm5k/.local/share/nvim/site/pack/packer/opt/vim-prettier/ftdetect/markdown.vim]]
+time([[Sourcing ftdetect script at: /Users/tbm5k/.local/share/nvim/site/pack/packer/opt/vim-prettier/ftdetect/markdown.vim]], false)
+time([[Sourcing ftdetect script at: /Users/tbm5k/.local/share/nvim/site/pack/packer/opt/vim-prettier/ftdetect/php.vim]], true)
+vim.cmd [[source /Users/tbm5k/.local/share/nvim/site/pack/packer/opt/vim-prettier/ftdetect/php.vim]]
+time([[Sourcing ftdetect script at: /Users/tbm5k/.local/share/nvim/site/pack/packer/opt/vim-prettier/ftdetect/php.vim]], false)
+time([[Sourcing ftdetect script at: /Users/tbm5k/.local/share/nvim/site/pack/packer/opt/vim-prettier/ftdetect/ruby.vim]], true)
+vim.cmd [[source /Users/tbm5k/.local/share/nvim/site/pack/packer/opt/vim-prettier/ftdetect/ruby.vim]]
+time([[Sourcing ftdetect script at: /Users/tbm5k/.local/share/nvim/site/pack/packer/opt/vim-prettier/ftdetect/ruby.vim]], false)
+time([[Sourcing ftdetect script at: /Users/tbm5k/.local/share/nvim/site/pack/packer/opt/vim-prettier/ftdetect/scss.vim]], true)
+vim.cmd [[source /Users/tbm5k/.local/share/nvim/site/pack/packer/opt/vim-prettier/ftdetect/scss.vim]]
+time([[Sourcing ftdetect script at: /Users/tbm5k/.local/share/nvim/site/pack/packer/opt/vim-prettier/ftdetect/scss.vim]], false)
+time([[Sourcing ftdetect script at: /Users/tbm5k/.local/share/nvim/site/pack/packer/opt/vim-prettier/ftdetect/svelte.vim]], true)
+vim.cmd [[source /Users/tbm5k/.local/share/nvim/site/pack/packer/opt/vim-prettier/ftdetect/svelte.vim]]
+time([[Sourcing ftdetect script at: /Users/tbm5k/.local/share/nvim/site/pack/packer/opt/vim-prettier/ftdetect/svelte.vim]], false)
+time([[Sourcing ftdetect script at: /Users/tbm5k/.local/share/nvim/site/pack/packer/opt/vim-prettier/ftdetect/typescript.vim]], true)
+vim.cmd [[source /Users/tbm5k/.local/share/nvim/site/pack/packer/opt/vim-prettier/ftdetect/typescript.vim]]
+time([[Sourcing ftdetect script at: /Users/tbm5k/.local/share/nvim/site/pack/packer/opt/vim-prettier/ftdetect/typescript.vim]], false)
+time([[Sourcing ftdetect script at: /Users/tbm5k/.local/share/nvim/site/pack/packer/opt/vim-prettier/ftdetect/vue.vim]], true)
+vim.cmd [[source /Users/tbm5k/.local/share/nvim/site/pack/packer/opt/vim-prettier/ftdetect/vue.vim]]
+time([[Sourcing ftdetect script at: /Users/tbm5k/.local/share/nvim/site/pack/packer/opt/vim-prettier/ftdetect/vue.vim]], false)
+time([[Sourcing ftdetect script at: /Users/tbm5k/.local/share/nvim/site/pack/packer/opt/vim-prettier/ftdetect/xml.vim]], true)
+vim.cmd [[source /Users/tbm5k/.local/share/nvim/site/pack/packer/opt/vim-prettier/ftdetect/xml.vim]]
+time([[Sourcing ftdetect script at: /Users/tbm5k/.local/share/nvim/site/pack/packer/opt/vim-prettier/ftdetect/xml.vim]], false)
+time([[Sourcing ftdetect script at: /Users/tbm5k/.local/share/nvim/site/pack/packer/opt/vim-prettier/ftdetect/yaml.vim]], true)
+vim.cmd [[source /Users/tbm5k/.local/share/nvim/site/pack/packer/opt/vim-prettier/ftdetect/yaml.vim]]
+time([[Sourcing ftdetect script at: /Users/tbm5k/.local/share/nvim/site/pack/packer/opt/vim-prettier/ftdetect/yaml.vim]], false)
+vim.cmd("augroup END")
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then

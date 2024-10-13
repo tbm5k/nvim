@@ -42,4 +42,18 @@ packer.startup(function(use)
     use 'wakatime/vim-wakatime'
 
     use 'terrortylor/nvim-comment'
+
+    use {
+        'prettier/vim-prettier',
+        run = 'yarn install --frozen-lockfile --production',
+        ft = {
+            'javascript',
+            'typescript',
+            'css',
+            'json',
+            'html'
+        }
+    }
+
+    use "~/personal/plugins/todo.nvim"
 end)
