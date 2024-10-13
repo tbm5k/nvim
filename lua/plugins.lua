@@ -55,5 +55,6 @@ packer.startup(function(use)
         }
     }
 
-    use "~/personal/plugins/todo.nvim"
+    -- use "~/personal/plugins/todo.nvim"
+    use "tbm5k/todo.nvim"
 end)
